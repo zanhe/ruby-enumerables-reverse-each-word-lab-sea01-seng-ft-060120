@@ -1,12 +1,12 @@
 require 'pry'
 
 def reverse_each_word(str)
-  sentence = str.split(" ")
+  str.split(" ")
   binding.pry
-  sentence.each do |word|
-    sentence.reverse_each
+  str.each do |word|
+    str.reverse_each
   end
-  sentence
+  str
 end
 
 binding.pry
